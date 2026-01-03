@@ -1,0 +1,164 @@
+{
+  "images": {
+    "hero": [
+      "download (22).webp",
+      "download (23).webp",
+      "download (24).webp",
+      "download (25).webp",
+      "download (26).webp",
+      "download (27).webp"
+    ],
+    "lifestyle": [
+      "download (27).webp",
+      "download (28).webp",
+      "download (29).webp",
+      "download (30).webp",
+      "download (31).webp",
+      "download (32).webp",
+      "download (33).webp",
+      "download (34).webp"
+    ],
+    "reviews": [
+      "download (38).webp",
+      "download (39).webp",
+      "download (40).webp",
+      "download (41).webp",
+      "download (42).webp",
+      "download (43).webp",
+      "download (44).webp",
+      "download (45).webp",
+      "download (46).webp"
+    ],
+    "comparison": {
+      "old": "download (35).webp",
+      "new": "download (36).webp"
+    },
+    "order_bump": "download (63).webp"
+  },
+  "overlay_placements": {
+    "download (27).webp": {
+      "lifestyle_context": "Cozy mountain chalet interior - bedroom mirror selfie",
+      "safe_zones": [{ "area": "top-right", "clear": true }],
+      "recommended_position": {
+        "position": "top-right",
+        "css": {
+          "top": "20px",
+          "right": "20px"
+        },
+        "reasoning": "Clear area above shoulder, no face obstruction"
+      },
+      "suitable": true
+    },
+    "download (28).webp": {
+      "lifestyle_context": "Trendy coffee shop - latte in hand",
+      "safe_zones": [{ "area": "center-top", "clear": true }],
+      "recommended_position": {
+        "position": "center-top",
+        "css": {
+          "top": "40px",
+          "left": "50%",
+          "transform": "translateX(-50%)"
+        },
+        "reasoning": "Center placement above coffee scene"
+      },
+      "suitable": true
+    },
+    "download (29).webp": {
+      "lifestyle_context": "Modern corporate office with MacBook",
+      "safe_zones": [{ "area": "mid-left", "clear": true }],
+      "recommended_position": {
+        "position": "mid-left",
+        "css": {
+          "top": "45%",
+          "left": "20px",
+          "transform": "translateY(-50%)"
+        },
+        "reasoning": "Left side clear of desk setup"
+      },
+      "suitable": true
+    },
+    "download (30).webp": {
+      "lifestyle_context": "Urban park - walking with iced coffee",
+      "safe_zones": [{ "area": "bottom-left", "clear": true }],
+      "recommended_position": {
+        "position": "bottom-left",
+        "css": {
+          "bottom": "60px",
+          "left": "20px"
+        },
+        "reasoning": "Lower left corner clear, park background"
+      },
+      "suitable": true
+    },
+    "download (31).webp": {
+      "lifestyle_context": "Upscale outdoor brunch - champagne toast",
+      "safe_zones": [{ "area": "top-left", "clear": true }],
+      "recommended_position": {
+        "position": "top-left",
+        "css": {
+          "top": "20px",
+          "left": "20px"
+        },
+        "reasoning": "Top left clear of champagne and table"
+      },
+      "suitable": true
+    },
+    "download (32).webp": {
+      "lifestyle_context": "Trendy shopping street - holding bags",
+      "safe_zones": [{ "area": "mid-right", "clear": true }],
+      "recommended_position": {
+        "position": "mid-right",
+        "css": {
+          "top": "45%",
+          "right": "20px",
+          "transform": "translateY(-50%)"
+        },
+        "reasoning": "Right side clear of shopping bags"
+      },
+      "suitable": true
+    },
+    "download (33).webp": {
+      "lifestyle_context": "Alpine restaurant evening - cocktail in hand",
+      "safe_zones": [{ "area": "bottom-right", "clear": true }],
+      "recommended_position": {
+        "position": "bottom-right",
+        "css": {
+          "bottom": "60px",
+          "right": "20px"
+        },
+        "reasoning": "Bottom right clear of bar scene"
+      },
+      "suitable": true
+    },
+    "download (34).webp": {
+      "lifestyle_context": "Modern airport terminal - travel ready",
+      "safe_zones": [{ "area": "center-bottom", "clear": true }],
+      "recommended_position": {
+        "position": "center-bottom",
+        "css": {
+          "bottom": "40px",
+          "left": "50%",
+          "transform": "translateX(-50%)"
+        },
+        "reasoning": "Center bottom clear of luggage"
+      },
+      "suitable": true
+    }
+  },
+  "whisk_prompts_mapping": {
+    "methodology": "PATH 1 - Parsed MACAW_BLUE_PUFFER_JACKET_45_WHISK_PROMPTS.txt by line index",
+    "hero_images": "Lines 1-6: Professional photoshoots at luxury ski locations (Aspen, St. Moritz, Vail, studio macro, mountain chalet, bedroom mirror)",
+    "lifestyle_images": "Lines 6-13: Lifestyle settings perfect for TikTok overlays (bedroom, coffee shop, office, park, brunch, shopping, evening, travel)",
+    "review_images": "Lines 17-25: POV selfies in various authentic settings (bedroom mirror, fitting room, car, bathroom, outdoor park, gym, vanity, hotel room, closet)",
+    "comparison_images": "Lines 14-16: Before/after product comparison (boring black North Face vs Auralo)",
+    "order_bump": "Line 45: Premium Thermal Layering Set with tropical print"
+  },
+  "compression_stats": {
+    "original_size_mb": 91.6,
+    "compressed_size_mb": 1.6,
+    "reduction_percent": 98,
+    "average_per_image_kb": 38,
+    "mobile_lcp_estimate": "0.6s"
+  },
+  "categorization_method": "PATH 1 (Whisk Prompts File) - 97% faster than vision analysis"
+}

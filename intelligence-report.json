@@ -1,0 +1,79 @@
+{
+  "primary_segment": {
+    "name": "Budget-Savvy Adventure Seekers",
+    "identity_labels": [
+      "Weekend Warrior",
+      "Ski Trip Newbie",
+      "Value Hunter",
+      "Instagram Skier"
+    ],
+    "age_range": "22-38",
+    "life_stage": "Young professionals, College grads, First-time homebuyers trying to balance fun with finances",
+    "pain_points": [
+      "Can't justify $500+ for a jacket worn 5-10 times per season",
+      "Tired of choosing between looking good and staying warm",
+      "Sick of cheap jackets that fall apart after one season",
+      "Farm Rio runs 2 sizes too big - inconsistent sizing ruins online shopping",
+      "Fashion puffers aren't actually designed for real skiing - just Instagram poses"
+    ],
+    "transformation_desire": "From sacrificing style OR performance to having BOTH without breaking the bank"
+  },
+  "secondary_segments": [
+    {
+      "name": "First-Time Ski Trippers",
+      "pain_points": [
+        "Don't want to invest $400+ before knowing if they'll ski again",
+        "Rental jackets are ugly and smell weird",
+        "Need something versatile for après-ski and city wear"
+      ],
+      "transformation": "From feeling like a rental-wearing tourist to looking like a seasoned skier"
+    },
+    {
+      "name": "Gift Buyers for Partners/Friends",
+      "pain_points": [
+        "Guessing size is risky with inconsistent brands like Farm Rio",
+        "Need affordable but impressive-looking gift",
+        "Want something they'll actually use, not just hang in closet"
+      ],
+      "transformation": "From generic gift panic to being the hero who nailed it"
+    }
+  ],
+  "competitor_shortcomings": {
+    "materials": "Farm Rio uses 100% polyester that pills and loses shape. Budget brands use cheap synthetics that compress into flat, cold layers. Most jackets at this price point sacrifice durability for cost.",
+    "comfort": "Farm Rio sizing runs 2 sizes too big (size 4/6 wearing XXS). Cheap puffers are stiff, itchy, and ill-fitting. Many trap heat without breathability, making you sweat then freeze.",
+    "durability": "Budget jackets snag, pill, and lose shape after one season. Farm Rio has quality control issues - defective items, poor sewing, missing buttons. Cheap materials compress and lose insulation capacity fast.",
+    "functionality": "Farm Rio puffers at $539 are fashion-first, not performance - just for Instagram poses, not actual skiing. Budget options aren't warm enough for real mountain conditions. Shell materials aren't waterproof or windproof.",
+    "lifestyle_limits": "Fashion puffers can't handle backcountry conditions. Cheap jackets lack breathability for active skiing. Non-versatile designs only work on slopes, not for après-ski or city wear.",
+    "psychological": "Wearing a $500+ jacket creates anxiety about damaging it. Looking like you're wearing a rental jacket kills confidence. Choosing between style and function feels like losing either way."
+  },
+  "language_style": {
+    "formality": "casual-playful with authenticity",
+    "common_phrases": [
+      "obsessed with",
+      "can't go anywhere without being stopped",
+      "seriously honing in on",
+      "vastly outweigh",
+      "fr",
+      "lowkey",
+      "actually warm",
+      "no cap"
+    ],
+    "emoji_usage": ["🔥", "❄️", "⛷️", "💯", "😍", "🏔️"],
+    "slang_terms": ["fr", "lowkey", "ngl", "no cap", "slaps", "hits different"],
+    "sentence_length": "short-medium with punchy energy"
+  },
+  "transformation_narrative": {
+    "from_state": "Feeling stuck between overpriced fashion puffers that can't handle real skiing and cheap jackets that fall apart—sacrificing either style or performance, never having both",
+    "to_state": "Confidently hitting the slopes AND après-ski in a jacket that actually performs, looks fire, and doesn't require a second mortgage"
+  },
+  "urgency_tactics": {
+    "farm_rio_patterns": "Limited seasonal drops, exclusivity positioning at $539",
+    "general_market": "Flash sales, bundle deals, 'only X left in stock'",
+    "recommended_for_auralo": "Emphasize insane value ($19 vs $539 Farm Rio), limited crypto pool availability, seasonal scarcity"
+  },
+  "social_proof_volume": {
+    "farm_rio": "Stopped by strangers for compliments (qualitative), TrustPilot reviews",
+    "market_standard": "5-star reviews with photo proof, 'X thousand sold', TikTok virality",
+    "recommended_for_auralo": "User-generated TikTok content, before/after competitor comparisons, review count emphasis"
+  }
+}
