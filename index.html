@@ -521,6 +521,202 @@
       }
 
       /* ============================================
+       CHECKOUT MODAL
+       ============================================ */
+      .checkout-modal {
+        display: none;
+        position: fixed;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.7);
+        z-index: 9999;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+      }
+
+      .checkout-modal.active {
+        display: flex;
+      }
+
+      .checkout-modal-content {
+        background: var(--white);
+        border-radius: 16px;
+        max-width: 450px;
+        width: 100%;
+        max-height: 90vh;
+        overflow-y: auto;
+        position: relative;
+      }
+
+      .checkout-modal-header {
+        background: var(--dark);
+        color: var(--white);
+        padding: 16px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 16px 16px 0 0;
+      }
+
+      .checkout-modal-header h3 {
+        color: var(--white);
+        font-size: 18px;
+        margin: 0;
+      }
+
+      .checkout-modal-close {
+        background: none;
+        border: none;
+        color: var(--white);
+        font-size: 28px;
+        cursor: pointer;
+        line-height: 1;
+      }
+
+      .checkout-modal-body {
+        padding: 20px;
+      }
+
+      .checkout-summary {
+        margin-bottom: 20px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid var(--gray-border);
+      }
+
+      .checkout-summary h4 {
+        font-size: 16px;
+        margin-bottom: 8px;
+      }
+
+      .checkout-summary p {
+        font-size: 14px;
+        color: var(--text-secondary);
+      }
+
+      .modal-order-bump {
+        background: linear-gradient(135deg, #f8f8f8 0%, #fff9e6 100%);
+        border: 2px solid var(--lime);
+        border-radius: 12px;
+        padding: 16px;
+        margin-bottom: 20px;
+      }
+
+      .modal-order-bump-header {
+        display: flex;
+        gap: 12px;
+        margin-bottom: 12px;
+      }
+
+      .modal-order-bump-image {
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+        border-radius: 8px;
+        flex-shrink: 0;
+      }
+
+      .modal-order-bump-info {
+        flex: 1;
+      }
+
+      .modal-order-bump-badge {
+        background: var(--lime);
+        color: var(--dark);
+        font-size: 10px;
+        font-weight: 700;
+        padding: 2px 8px;
+        border-radius: 4px;
+        text-transform: uppercase;
+        display: inline-block;
+        margin-bottom: 6px;
+      }
+
+      .modal-order-bump-title {
+        font-size: 15px;
+        font-weight: 700;
+        color: var(--dark);
+        margin-bottom: 4px;
+      }
+
+      .modal-order-bump-price {
+        font-size: 14px;
+        color: #28a745;
+        font-weight: 700;
+      }
+
+      .modal-order-bump-price .free {
+        color: #28a745;
+        font-weight: 700;
+      }
+
+      .modal-order-bump-desc {
+        font-size: 13px;
+        color: var(--text-secondary);
+        line-height: 1.5;
+        margin-bottom: 12px;
+      }
+
+      .modal-order-bump-checkbox {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        cursor: pointer;
+        padding: 10px;
+        background: var(--white);
+        border-radius: 8px;
+        border: 1px solid var(--gray-border);
+      }
+
+      .modal-order-bump-checkbox input {
+        width: 20px;
+        height: 20px;
+        accent-color: var(--lime);
+      }
+
+      .modal-order-bump-checkbox span {
+        font-size: 14px;
+        font-weight: 600;
+      }
+
+      .checkout-total {
+        background: var(--gray-light);
+        padding: 16px;
+        border-radius: 8px;
+        margin-bottom: 16px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .checkout-total-label {
+        font-size: 16px;
+        font-weight: 600;
+      }
+
+      .checkout-total-amount {
+        font-size: 24px;
+        font-weight: 800;
+        color: var(--dark);
+      }
+
+      .checkout-confirm-btn {
+        background: var(--dark);
+        color: var(--white);
+        font-size: 18px;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding: 16px;
+        border-radius: 8px;
+        width: 100%;
+        border: none;
+        cursor: pointer;
+      }
+
+      .checkout-confirm-btn:hover {
+        opacity: 0.9;
+      }
+
+      /* ============================================
        SECTION 11: DELIVERY TIMELINE
        ============================================ */
       .delivery-timeline {
@@ -1276,8 +1472,8 @@
         </div>
       </div>
 
-      <!-- Order Bump -->
-      <div class="order-bump" id="orderBump">
+      <!-- Order Bump - hidden, moved to checkout modal -->
+      <div class="order-bump" id="orderBump" style="display: none">
         <label class="order-bump-checkbox">
           <input type="checkbox" id="orderBumpCheck" onchange="updateTotal()" />
           <span class="checkmark"></span>
@@ -1298,7 +1494,7 @@
       <!-- ==========================================
          SECTION 10: ADD TO CART
          ========================================== -->
-      <button class="add-to-cart-btn" onclick="addToCart()">
+      <button class="add-to-cart-btn" onclick="openCheckoutModal()">
         <span id="cartTotal">$19.00</span> ADD TO CART
       </button>
     </div>
@@ -1345,7 +1541,10 @@
           <h3>THE NEW</h3>
         </div>
         <div class="comparison-slider__background">
-          <img src="./images/product/download (36).webp" alt="The new way" />
+          <img
+            src="./images/product/download (24).webp"
+            alt="The new way - Auralo Ski Jacket"
+          />
         </div>
         <div class="comparison-slider__overlay">
           <img src="./images/product/download (35).webp" alt="The old way" />
@@ -1534,6 +1733,15 @@
           </div>
         </div>
       </div>
+      <div class="img-text-content">
+        <h2>ThermaFlex™ Insulation</h2>
+        <p class="lead">Real Warmth, Real Movement</p>
+        <p>
+          Synthetic fill that performs like down but works when wet. Flexible
+          enough for actual skiing, warm enough for 20°F days. Unlike Farm Rio's
+          fashion-only fill that falls flat in real cold.
+        </p>
+      </div>
     </div>
 
     <div class="img-text-section">
@@ -1564,6 +1772,15 @@
             >
           </div>
         </div>
+      </div>
+      <div class="img-text-content">
+        <h2>WindShield™ Outer Layer</h2>
+        <p class="lead">Blocks Wind Chill, Not Your Style</p>
+        <p>
+          Water-resistant shell that looks chic, not technical. Silent fabric
+          (no crinkly sound), wind-proof performance. Farm Rio gave you crinkle.
+          We give you quiet confidence.
+        </p>
       </div>
     </div>
 
@@ -1596,6 +1813,15 @@
           </div>
         </div>
       </div>
+      <div class="img-text-content">
+        <h2>Moncler Look. $19 Price.</h2>
+        <p class="lead">Your Secret Is Safe With Us</p>
+        <p>
+          Premium cut and finish that fools everyone. Clients, coworkers, that
+          judgy barista - they all think you dropped $500+. Only you (and your
+          bank account) know the truth.
+        </p>
+      </div>
     </div>
 
     <div class="img-text-section">
@@ -1626,6 +1852,15 @@
             >
           </div>
         </div>
+      </div>
+      <div class="img-text-content">
+        <h2>Bodies Change. Your Jacket Adapts.</h2>
+        <p class="lead">Adjustable Everything</p>
+        <p>
+          Postpartum, weight fluctuations, bloating days - life happens.
+          Adjustable cuffs and hem mean this jacket grows with you (and shrinks
+          back). One size fits your whole journey.
+        </p>
       </div>
     </div>
 
@@ -1874,7 +2109,7 @@
       // ==========================================
       // ADD TO CART - SimpleSwap Redirect
       // ==========================================
-      function addToCart() {
+      async function addToCart() {
         const selectedCard = document.querySelector(".bundle-card.selected");
         const sizeSelect = selectedCard.querySelector(".bundle-size-select");
         const size = sizeSelect ? sizeSelect.value : null;
@@ -1884,29 +2119,56 @@
           return;
         }
 
-        let total = BUNDLE_PRICES[selectedBundle];
-        const quantity = selectedBundle === "single" ? 1 : 2;
+        // Calculate total based on 3-tier pricing
+        // $19 = single, $29 = single + bump, $59 = 2-pack (bump FREE)
+        let amountUSD;
+        if (selectedBundle === "bundle2") {
+          amountUSD = 59; // 2-pack, bump is FREE
+        } else if (orderBumpSelected) {
+          amountUSD = 29; // single + bump
+        } else {
+          amountUSD = 19; // single only
+        }
 
-        // Order bump is FREE for bundle2 (2-pack), only charged for single
-        const bumpPrice =
-          orderBumpSelected && selectedBundle === "single"
-            ? ORDER_BUMP_PRICE
-            : 0;
+        // Show loading state
+        const btn =
+          document.querySelector(".checkout-confirm-btn") ||
+          document.querySelector(".add-to-cart-btn");
+        const originalText = btn.textContent;
+        btn.textContent = "PROCESSING...";
+        btn.disabled = true;
 
-        const orderData = {
-          product: "Auralo Ski Jacket",
-          bundle: selectedBundle,
-          size: size,
-          price: total,
-          quantity: quantity,
-          orderBump: orderBumpSelected,
-          orderBumpProduct: orderBumpSelected ? "" : null,
-          orderBumpPrice: bumpPrice,
-          total: total + bumpPrice,
-        };
+        try {
+          // Call Netlify function to get SimpleSwap checkout URL
+          const response = await fetch("/.netlify/functions/buy-now", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ amountUSD }),
+          });
 
-        // Redirect to SimpleSwap checkout
-        window.location.href = `${CHECKOUT_CONFIG.poolUrl}/checkout?data=${encodeURIComponent(JSON.stringify(orderData))}`;
+          const data = await response.json();
+
+          if (data.error) {
+            throw new Error(data.error);
+          }
+
+          // Redirect to SimpleSwap checkout
+          if (data.checkoutUrl || data.redirectUrl || data.url) {
+            window.location.href =
+              data.checkoutUrl || data.redirectUrl || data.url;
+          } else {
+            throw new Error("No checkout URL returned");
+          }
+        } catch (error) {
+          console.error("Checkout error:", error);
+          alert(
+            "Checkout error: " +
+              error.message +
+              "\n\nPlease try again or contact support.",
+          );
+          btn.textContent = originalText;
+          btn.disabled = false;
+        }
       }
 
       // ==========================================
@@ -2065,6 +2327,152 @@
         </div>
       `;
       });
+    </script>
+
+    <!-- ==========================================
+       CHECKOUT MODAL
+       ========================================== -->
+    <div class="checkout-modal" id="checkoutModal">
+      <div class="checkout-modal-content">
+        <div class="checkout-modal-header">
+          <h3>Complete Your Order</h3>
+          <button class="checkout-modal-close" onclick="closeCheckoutModal()">
+            &times;
+          </button>
+        </div>
+        <div class="checkout-modal-body">
+          <div class="checkout-summary">
+            <h4 id="modalProductName">Auralo Ski Jacket</h4>
+            <p id="modalProductDetails">Size: M | Qty: 1</p>
+          </div>
+
+          <!-- Order Bump with Image -->
+          <div class="modal-order-bump">
+            <div class="modal-order-bump-header">
+              <img
+                src="./images/product/download (37).webp"
+                alt="Base Layer"
+                class="modal-order-bump-image"
+              />
+              <div class="modal-order-bump-info">
+                <div class="modal-order-bump-badge">One-Time Offer</div>
+                <div class="modal-order-bump-title">
+                  Moisture-Wicking Base Layer
+                </div>
+                <div class="modal-order-bump-price" id="modalBumpPrice">
+                  +$10 <span class="free">(FREE with 2-pack!)</span>
+                </div>
+              </div>
+            </div>
+            <div class="modal-order-bump-desc">
+              The perfect companion to your Auralo Jacket. Lightweight thermal
+              layer that wicks sweat and keeps you dry all day. Most customers
+              add this for complete cold-weather protection.
+            </div>
+            <label class="modal-order-bump-checkbox">
+              <input
+                type="checkbox"
+                id="modalOrderBumpCheck"
+                onchange="updateModalTotal()"
+              />
+              <span>YES! Add the Base Layer to my order</span>
+            </label>
+          </div>
+
+          <div class="checkout-total">
+            <span class="checkout-total-label">Total:</span>
+            <span class="checkout-total-amount" id="modalTotal">$19.00</span>
+          </div>
+
+          <button class="checkout-confirm-btn" onclick="confirmCheckout()">
+            COMPLETE ORDER
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // Checkout Modal Functions
+      function openCheckoutModal() {
+        const selectedCard = document.querySelector(".bundle-card.selected");
+        const sizeSelect = selectedCard.querySelector(".bundle-size-select");
+        const size = sizeSelect ? sizeSelect.value : null;
+
+        if (!size) {
+          alert("Please select a size");
+          return;
+        }
+
+        // Update modal content
+        const quantity = selectedBundle === "single" ? 1 : 2;
+        document.getElementById("modalProductDetails").textContent =
+          `Size: ${size} | Qty: ${quantity}`;
+
+        // Show/hide bump price based on bundle
+        const bumpPriceEl = document.getElementById("modalBumpPrice");
+        if (selectedBundle === "bundle2") {
+          bumpPriceEl.innerHTML = '<span class="free">FREE with 2-pack!</span>';
+        } else {
+          bumpPriceEl.innerHTML = "+$10";
+        }
+
+        // Reset bump checkbox
+        document.getElementById("modalOrderBumpCheck").checked = false;
+        updateModalTotal();
+
+        // Show modal
+        document.getElementById("checkoutModal").classList.add("active");
+        document.body.style.overflow = "hidden";
+      }
+
+      function closeCheckoutModal() {
+        document.getElementById("checkoutModal").classList.remove("active");
+        document.body.style.overflow = "";
+      }
+
+      function updateModalTotal() {
+        const bumpChecked = document.getElementById(
+          "modalOrderBumpCheck",
+        ).checked;
+        let total = BUNDLE_PRICES[selectedBundle];
+
+        // Order bump is FREE for bundle2 (2-pack), only charged for single
+        if (bumpChecked && selectedBundle === "single") {
+          total += ORDER_BUMP_PRICE;
+        }
+
+        document.getElementById("modalTotal").textContent =
+          `$${total.toFixed(2)}`;
+      }
+
+      function confirmCheckout() {
+        const selectedCard = document.querySelector(".bundle-card.selected");
+        const sizeSelect = selectedCard.querySelector(".bundle-size-select");
+        const size = sizeSelect ? sizeSelect.value : null;
+
+        const bumpChecked = document.getElementById(
+          "modalOrderBumpCheck",
+        ).checked;
+        orderBumpSelected = bumpChecked;
+
+        // Update the original order bump checkbox to sync
+        const originalBumpCheck = document.getElementById("orderBumpCheck");
+        if (originalBumpCheck) {
+          originalBumpCheck.checked = bumpChecked;
+        }
+
+        closeCheckoutModal();
+        addToCart();
+      }
+
+      // Close modal when clicking outside
+      document
+        .getElementById("checkoutModal")
+        .addEventListener("click", function (e) {
+          if (e.target === this) {
+            closeCheckoutModal();
+          }
+        });
     </script>
   </body>
 </html>
