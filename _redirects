@@ -5,8 +5,5 @@
 /auralo-ski-jacket/              /index.html         200
 /auralo-ski-jacket               /index.html         200
 
-# Netlify Functions
-/.netlify/functions/*  /.netlify/functions/:splat  200
-
 # Root access (direct Netlify URL)
 /  /index.html  200
