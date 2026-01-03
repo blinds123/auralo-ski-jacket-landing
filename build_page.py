@@ -67,32 +67,26 @@ for i, faq in enumerate(copy["faqs"][:5], 1):
     html = html.replace(f"{{{{FAQ_{i}_A}}}}", faq["answer"])
     html = html.replace(f"{{{{FAQ_{i}_ICON}}}}", faq["icon"])
 
-# Replace images
+# Replace images (fix: remove path prefix, just use filename)
 # Hero images (6)
 for i, img in enumerate(assets["images"]["hero"][:6], 1):
-    html = html.replace(f"{{{{HERO_IMAGE_{i}}}}}", f"./compressed/{img}")
+    html = html.replace(f"{{{{HERO_IMAGE_{i}}}}}", img)
 
 # Lifestyle images (8)
 for i, img in enumerate(assets["images"]["lifestyle"][:8], 1):
-    html = html.replace(f"{{{{LIFESTYLE_IMAGE_{i}}}}}", f"./compressed/{img}")
+    html = html.replace(f"{{{{LIFESTYLE_IMAGE_{i}}}}}", img)
 
 # Review images (9)
 for i, img in enumerate(assets["images"]["reviews"][:9], 1):
-    html = html.replace(f"{{{{REVIEW_IMAGE_{i}}}}}", f"./compressed/{img}")
+    html = html.replace(f"{{{{REVIEW_IMAGE_{i}}}}}", img)
 
-# Comparison images
-html = html.replace(
-    "{{COMPARISON_OLD}}", f'./compressed/{assets["images"]["comparison"]["old"]}'
-)
-html = html.replace(
-    "{{COMPARISON_NEW}}", f'./compressed/{assets["images"]["comparison"]["new"]}'
-)
+# Comparison images (fix: just use filename)
+html = html.replace("{{COMPARISON_OLD}}", assets["images"]["comparison"]["old"])
+html = html.replace("{{COMPARISON_NEW}}", assets["images"]["comparison"]["new"])
 
-# Order bump
+# Order bump (fix: just use filename)
 if "order_bump" in assets["images"]:
-    html = html.replace(
-        "{{ORDER_BUMP_IMAGE}}", f'./compressed/{assets["images"]["order_bump"]}'
-    )
+    html = html.replace("{{ORDER_BUMP_IMAGE}}", assets["images"]["order_bump"])
     html = html.replace("{{ORDER_BUMP_HEADLINE}}", copy["order_bump"]["headline"])
     html = html.replace("{{ORDER_BUMP_DESCRIPTION}}", copy["order_bump"]["description"])
     html = html.replace("{{ORDER_BUMP_PRICE}}", copy["order_bump"]["price_text"])
@@ -104,11 +98,9 @@ if "order_bump" in assets["images"]:
 html = html.replace("{{CTA_PRIMARY}}", copy["cta_buttons"]["primary"])
 html = html.replace("{{CTA_SECONDARY}}", copy["cta_buttons"]["secondary"])
 
-# Guarantee
+# Guarantee (fix: just use filename)
 html = html.replace("{{GUARANTEE_TEXT}}", copy["guarantee_text"])
-html = html.replace(
-    "{{GUARANTEE_IMAGE}}", "./compressed/download (22).webp"
-)  # Use first hero image
+html = html.replace("{{GUARANTEE_IMAGE}}", "download (22).webp")  # Use first hero image
 
 # Prices
 html = html.replace("{{PRICE_SINGLE}}", "$19")

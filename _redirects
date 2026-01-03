@@ -1,9 +1,11 @@
 # Rewrite /auralo-ski-jacket/ asset paths to root (for base href compatibility)
-/auralo-ski-jacket/compressed/*  /compressed/:splat  200
-/auralo-ski-jacket/images/*      /images/:splat      200
-/auralo-ski-jacket/fonts/*       /fonts/:splat       200
-/auralo-ski-jacket/              /index.html         200
-/auralo-ski-jacket               /index.html         200
+# Map template paths to actual file locations
+/auralo-ski-jacket/images/product/*  /compressed/:splat      200
+/auralo-ski-jacket/images/*          /images/:splat          200
+/auralo-ski-jacket/compressed/*      /compressed/:splat      200
+/auralo-ski-jacket/fonts/*           /fonts/:splat           200
+/auralo-ski-jacket/                  /index.html             200
+/auralo-ski-jacket                   /index.html             200
 
 # Root access (direct Netlify URL)
 /  /index.html  200
