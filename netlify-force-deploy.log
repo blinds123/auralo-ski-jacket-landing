@@ -1,0 +1,106 @@
+[96m[1m​[22m[39m
+[96m[1mNetlify Build                                                 [22m[39m
+[96m[1m────────────────────────────────────────────────────────────────[22m[39m
+[36m[1m​[22m[39m
+[36m[1m❯ Version[22m[39m
+  @netlify/build 35.5.2
+[36m[1m​[22m[39m
+[36m[1m❯ Flags[22m[39m
+  accountId: 685c750a22b8de5e264a9ca9
+  deployId: 69591bb2c793d807fca09a72
+[36m[1m​[22m[39m
+[36m[1m❯ Current directory[22m[39m
+  /Users/nelsonchan/Downloads/puffer franky
+[36m[1m​[22m[39m
+[36m[1m❯ Config file[22m[39m
+  /Users/nelsonchan/netlify.toml
+[36m[1m​[22m[39m
+[36m[1m❯ Context[22m[39m
+  production
+[96m[1m​[22m[39m
+[96m[1mFunctions bundling                                            [22m[39m
+[96m[1m────────────────────────────────────────────────────────────────[22m[39m
+​
+Packaging Functions from [36mnetlify/functions[39m directory:
+ - buy-now.js
+​
+​
+[90m(Functions bundling completed in 69ms)[39m
+
+Deploying to Netlify
+────────────────────────────────────────────────────────────────
+
+[32mDeploy path: [39m       /Users/nelsonchan/Downloads/puffer franky
+[32mFunctions path: [39m    /Users/nelsonchan/Downloads/puffer franky/netlify/functions
+[32mConfiguration path: [39m/Users/nelsonchan/netlify.toml
+
+⠋ Uploading blobs to deploy store...
+
+✔ Finished uploading blobs to deploy store
+⠋ Hashing files...
+⠋ Looking for a functions cache...
+✔ Ignoring functions cache (use without --skip-functions-cache to change)
+✔ Finished hashing 95 files and 1 functions
+⠋ CDN diffing files...
+✔ CDN requesting 4 files and 1 functions
+⠋ Uploading 5 files
+ ›   Warning: JSONHTTPError: no records matched 422
+ ›   Warning: 
+{
+  "name": "JSONHTTPError",
+  "status": 422,
+  "json": {
+    "code": 422,
+    "message": "no records matched"
+  }
+}
+
+[91m[1m​[22m[39m
+[91m[1mInternal error during "options.onPostBuild"                   [22m[39m
+[91m[1m────────────────────────────────────────────────────────────────[22m[39m
+​
+  [31m[1mError message[22m[39m
+  JSONHTTPError: Unprocessable Entity
+​
+  [31m[1mError location[22m[39m
+  During options.onPostBuild
+      at parseResponse (file:///Users/nelsonchan/.nvm/versions/node/v22.16.0/lib/node_modules/netlify-cli/node_modules/@netlify/api/lib/methods/response.js:34:39)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async callMethod (file:///Users/nelsonchan/.nvm/versions/node/v22.16.0/lib/node_modules/netlify-cli/node_modules/@netlify/api/lib/methods/index.js:26:28)
+      at async tryUpload (file:///Users/nelsonchan/.nvm/versions/node/v22.16.0/lib/node_modules/netlify-cli/dist/utils/deploy/upload-files.js:80:29)
+​
+  [31m[1mError properties[22m[39m
+  {
+    name: [32m'JSONHTTPError'[39m,
+    status: [33m422[39m,
+    json: { code: [33m422[39m, message: [32m'no records matched'[39m }
+  }
+​
+  [31m[1mResolved config[22m[39m
+  build:
+    publish: /Users/nelsonchan/Downloads/puffer franky
+    publishOrigin: config
+  functionsDirectory: /Users/nelsonchan/Downloads/puffer franky/netlify/functions
+  redirects:
+    - from: /auralo-ski-jacket/images/product/*
+      status: 200
+      to: /compressed/:splat
+    - from: /auralo-ski-jacket/images/*
+      status: 200
+      to: /images/:splat
+    - from: /auralo-ski-jacket/compressed/*
+      status: 200
+      to: /compressed/:splat
+    - from: /auralo-ski-jacket/fonts/*
+      status: 200
+      to: /fonts/:splat
+    - from: /auralo-ski-jacket/
+      status: 200
+      to: /index.html
+    - from: /auralo-ski-jacket
+      status: 200
+      to: /index.html
+    - from: /
+      status: 200
+      to: /index.html
+ ›   Error: Error while running build
