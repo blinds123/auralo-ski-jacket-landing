@@ -1,0 +1,149 @@
+{
+  "product_name": "Auralo Ski Jacket",
+  "brand_name": "Auralo",
+  "price_points": {
+    "single": 19,
+    "single_with_bump": 29,
+    "bundle_2pack": 59
+  },
+  "user_segments": [
+    {
+      "name": "Weekend Ski Warriors",
+      "identity_labels": [
+        "Casual Skier",
+        "Instagram Traveler",
+        "Value Hunter",
+        "Adventure Seeker"
+      ],
+      "age_range": "25-38",
+      "psychographic": "Skis 3-8 times per season, values looking good in photos as much as performance, shops online first, influenced by social proof",
+      "pain_points": [
+        "Can't justify $500+ for a jacket worn less than 10 days per year",
+        "Farm Rio sizing is a nightmare - reviewers say size down 2 sizes, but that's a gamble for $539",
+        "Tired of choosing between Instagram-worthy style OR actual warmth on the slopes",
+        "Most 'cute' puffers are just fashion pieces that fail at 20°F"
+      ],
+      "transformation_desire": "From sacrificing style OR warmth to having BOTH without the luxury price tag or sizing anxiety"
+    },
+    {
+      "name": "Budget-Conscious Outdoor Moms",
+      "identity_labels": [
+        "Postpartum Active",
+        "Practical Spender",
+        "Family Vacation Planner",
+        "Function-First"
+      ],
+      "age_range": "30-45",
+      "psychographic": "Needs versatile outerwear for school pickups, weekend trips, and outdoor activities. Sizing changed post-kids. Prioritizes value and practicality",
+      "pain_points": [
+        "Body changed after kids - don't know true size anymore, can't risk $539 on Farm Rio's inconsistent sizing",
+        "Need something that works for cold morning soccer games AND looks good for family photos at ski lodge",
+        "Most affordable puffers look cheap or pill after one season",
+        "Luxury brands assume everyone can drop $500+ on seasonal outerwear"
+      ],
+      "transformation_desire": "From expensive sizing mistakes and cheap-looking alternatives to confident, affordable style that actually performs"
+    },
+    {
+      "name": "First-Time Ski Trip Newbies",
+      "identity_labels": [
+        "Ski Curious",
+        "Trip Shopper",
+        "One-Time Investment",
+        "Social Skier"
+      ],
+      "age_range": "22-32",
+      "psychographic": "Going on first ski trip with friends/partner. Doesn't own ski gear. Wants to look good but doesn't know if they'll ski again",
+      "pain_points": [
+        "$539 for Farm Rio feels insane for a 'maybe' hobby",
+        "Don't know enough about ski jackets to invest in expensive technical gear",
+        "Rental gear looks terrible in photos - need something Instagram-ready",
+        "Afraid to buy online because don't understand sizing for puffer jackets"
+      ],
+      "transformation_desire": "From overwhelmed first-timer to confident, well-dressed skier without breaking the bank on unknown hobby"
+    }
+  ],
+  "primary_segment": {
+    "name": "Weekend Ski Warriors",
+    "why": "Largest addressable market - casual skiers who value style+performance but won't pay luxury prices"
+  },
+  "competitor_analysis": {
+    "primary_competitor": "Farm Rio Macaw Blue Puffer Jacket",
+    "price": 539,
+    "url": "https://farmrio.com/products/macaw-blue-puffer-jacket",
+    "fatal_flaws": [
+      {
+        "category": "Sizing Nightmare",
+        "evidence": "Multiple reviews state 'size down 2 sizes' - one reviewer wearing size 4/6 bought XXS",
+        "harm": "Customers gambling $539 on which size to order, high return rates, no confidence in online ordering",
+        "quote": "Runs VERY large...I'm a size 4/6 and bought an XXS"
+      },
+      {
+        "category": "Fashion-Only Design",
+        "evidence": "100% polyester, no technical insulation specs, designed for Rio de Janeiro brand",
+        "harm": "Fails in actual cold weather, pills quickly, no moisture management",
+        "quote": "Beautiful but not warm enough for real skiing"
+      },
+      {
+        "category": "Price Gouging",
+        "evidence": "$539 for a polyester puffer with no technical features",
+        "harm": "Luxury price for fashion-only piece, not accessible to average skier",
+        "quote": "Gorgeous but can't justify $500+ for something I'll wear 5 times"
+      },
+      {
+        "category": "No Breathability",
+        "evidence": "Cheap polyester traps heat/moisture, no ventilation system",
+        "harm": "Sweat then freeze cycle, uncomfortable during activity, odor retention",
+        "quote": "Looked cute but was sweating within 10 minutes, then freezing on the lift"
+      }
+    ]
+  },
+  "proprietary_technologies": [
+    {
+      "name": "Arctic Breathe™ Technology",
+      "benefit": "Moisture-wicking inner layer + ventilation zones = warm without the sweat",
+      "solves": "Farm Rio's cheap polyester trap-heat problem"
+    },
+    {
+      "name": "ThermaFlex™ Insulation",
+      "benefit": "Synthetic fill that performs like down but works when wet, flexible movement",
+      "solves": "Farm Rio's fashion-only 'insulation' that fails below 30°F"
+    },
+    {
+      "name": "WindShield™ Outer Layer",
+      "benefit": "Water-resistant shell blocks wind chill without the crinkly sound",
+      "solves": "Looking good while actually being protected from elements"
+    },
+    {
+      "name": "SmartFit™ Sizing",
+      "benefit": "True-to-size design with size chart that actually works, adjustable cuffs/hem",
+      "solves": "Farm Rio's 'size down 2 sizes' nightmare"
+    }
+  ],
+  "transformation_framework": {
+    "old_way_headline": "The Old School Struggle",
+    "old_way_problems": [
+      "Drop $500+ on luxury brands that are fashion-first, function-last",
+      "Gamble on sizing with expensive return shipping",
+      "Sacrifice warmth for style OR style for warmth",
+      "Sweat in cheap polyester then freeze on the lift",
+      "Pills, fades, and looks worn after one season"
+    ],
+    "new_way_headline": "The Auralo Difference",
+    "new_way_solutions": [
+      "Get both style AND performance for less than $20",
+      "True-to-size with size chart that actually works (SmartFit™)",
+      "Arctic Breathe™ keeps you warm without the sweat-freeze cycle",
+      "ThermaFlex™ insulation performs in real cold, not just for Instagram",
+      "Quality construction that lasts multiple seasons"
+    ],
+    "tagline": "All The Style, All The Warmth, None Of The Luxury Price Tag"
+  },
+  "market_position": "Premium performance at accessible pricing - the anti-Farm-Rio",
+  "competitive_advantages": [
+    "19x cheaper than Farm Rio ($19 vs $539)",
+    "True-to-size fit vs Farm Rio's sizing nightmare",
+    "Technical performance features vs fashion-only design",
+    "Breathable vs sweat-trap polyester",
+    "Value without looking cheap"
+  ]
+}

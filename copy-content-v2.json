@@ -1,0 +1,420 @@
+{
+  "headlines": {
+    "announcement_bar": "THE ORIGINAL AURALO SKI JACKET - LIMITED STOCK",
+    "hero_headline": "The Ski Jacket That Actually Breathes",
+    "hero_subheadline_rotating": [
+      "\"Best $19 I ever spent. Farm Rio who?\" - Sarah, 29",
+      "\"Warm, cute, and I can actually move. Game changer.\" - Jessica, 34",
+      "\"Finally, a puffer that doesn't make me sweat then freeze.\" - Amanda, 27"
+    ]
+  },
+  "proprietary_benefits": [
+    {
+      "name": "Arctic Breathe™ Technology",
+      "headline": "Warm Without The Sweat-Freeze Cycle",
+      "description": "Moisture-wicking inner layer + strategic ventilation zones = stay warm and dry, not clammy and miserable"
+    },
+    {
+      "name": "ThermaFlex™ Insulation",
+      "headline": "Real Warmth, Real Movement",
+      "description": "Synthetic fill that performs like down but works when wet. Flexible enough for actual skiing, warm enough for 20°F days"
+    },
+    {
+      "name": "WindShield™ Outer Layer",
+      "headline": "Blocks Wind Chill, Not Your Style",
+      "description": "Water-resistant shell that looks chic, not technical. Silent fabric (no crinkly sound), wind-proof performance"
+    },
+    {
+      "name": "SmartFit™ Sizing",
+      "headline": "True-To-Size. Finally.",
+      "description": "No more 'size down 2 sizes' gambling. Our size chart actually works. Adjustable cuffs and hem for perfect fit"
+    }
+  ],
+  "features": [
+    "Arctic Breathe™ moisture-wicking lining",
+    "ThermaFlex™ insulation (20°F rated)",
+    "WindShield™ water-resistant outer shell",
+    "SmartFit™ true-to-size design",
+    "Adjustable cuffs and hem",
+    "Zippered pockets (phone-safe)",
+    "Lightweight but warm (doesn't weigh you down)"
+  ],
+  "transformation_narrative": {
+    "old_way": {
+      "headline": "The Old School Struggle",
+      "problems": [
+        "Farm Rio's $539 price tag for a fashion-only puffer",
+        "Size down 2 sizes? Gamble $539 + return shipping on maybe getting it right",
+        "Cheap polyester that traps sweat then leaves you freezing",
+        "Gorgeous for Instagram, useless below 30°F",
+        "Pills and fades after one season of actual use"
+      ]
+    },
+    "new_way": {
+      "headline": "The Auralo Difference",
+      "solutions": [
+        "$19 for style AND performance (not $539 for just pretty)",
+        "SmartFit™ sizing - true-to-size, no guessing games",
+        "Arctic Breathe™ keeps you warm and dry, not sweaty",
+        "Looks amazing AND works in real cold (20°F rated)",
+        "Quality construction that lasts season after season"
+      ]
+    },
+    "tagline": "All The Style, All The Warmth, None Of The Luxury Price Tag"
+  },
+  "testimonials": [
+    {
+      "name": "Sarah Mitchell",
+      "role": "Ski Instructor, Vail",
+      "age": 29,
+      "location": "Colorado",
+      "rating": 5,
+      "headline": "\"I tell my students to skip the $500 jackets. This is it.\"",
+      "text": "I'm on the mountain 6 days a week. I've tried everything from Arc'teryx to Farm Rio. This Auralo jacket is the ONLY one I recommend to beginners. It's warm, it breathes, and when they inevitably fall, they're not out $539. I bought 3 more for myself.",
+      "segment": "Professional/Expert",
+      "use_case": "Daily professional use"
+    },
+    {
+      "name": "Jessica Rodriguez",
+      "role": "Marketing Director & Mom of 2",
+      "age": 34,
+      "location": "Utah",
+      "rating": 5,
+      "headline": "\"Works for school pickup AND the slopes. Finally.\"",
+      "text": "I needed something versatile - cold morning soccer games, family ski trips, running errands. Farm Rio was gorgeous but $539 for a jacket I'd wear to Target? No. This is perfect. Looks expensive, performs like technical gear, costs less than a dinner out.",
+      "segment": "Budget-Conscious Mom",
+      "use_case": "Multi-purpose daily wear"
+    },
+    {
+      "name": "Amanda Chen",
+      "role": "First-Time Skier",
+      "age": 27,
+      "location": "California",
+      "rating": 5,
+      "headline": "\"Saved me from a $500 mistake for a 'maybe' hobby.\"",
+      "text": "My friends invited me to Tahoe. I'd never skied. Spending $500+ on a Farm Rio jacket for ONE trip felt insane. Found this, took the risk. Best decision. Kept me warm all weekend, looked cute in photos, and now I actually want to ski more because I'm not worried about 'wasting' money on expensive gear.",
+      "segment": "First-Timer",
+      "use_case": "Trial/experimental purchase"
+    },
+    {
+      "name": "Emily Thompson",
+      "role": "Fitness Coach",
+      "age": 31,
+      "location": "Vermont",
+      "rating": 5,
+      "headline": "\"I can move. I can breathe. I can actually SKI.\"",
+      "text": "Most puffers restrict movement or make you sweat. Farm Rio looked cute but felt like wearing a trash bag - zero breathability. This has Arctic Breathe™ tech (whatever that means, but it WORKS). I stay warm without feeling like I'm in a sauna. Game changer for actual activity.",
+      "segment": "Active/Athletic",
+      "use_case": "High-movement activities"
+    },
+    {
+      "name": "Rachel Kim",
+      "role": "Postpartum Mom",
+      "age": 35,
+      "location": "New York",
+      "rating": 5,
+      "headline": "\"My body changed. This still fits. Thank you SmartFit™.\"",
+      "text": "After having kids, I don't know my size anymore. Farm Rio's 'size down 2 sizes' advice? Nightmare fuel for someone who doesn't know if she's a M or L. This size chart ACTUALLY WORKS. Ordered my normal size, fits perfectly. Adjustable cuffs mean it'll fit even if I fluctuate.",
+      "segment": "Postpartum",
+      "use_case": "Size-confidence issue"
+    },
+    {
+      "name": "Lauren Davis",
+      "role": "College Student",
+      "age": 22,
+      "location": "Colorado",
+      "rating": 5,
+      "headline": "\"Looks like I spent $500. Cost $19. That's the vibe.\"",
+      "text": "I'm broke but I care how I look. Farm Rio jackets are all over my feed but like... I'm eating ramen. This looks JUST as good in photos, kept me warm at Breck, and I can still afford to eat. No one believes me when I say how much it cost.",
+      "segment": "Budget-Conscious Young Adult",
+      "use_case": "Style on a budget"
+    },
+    {
+      "name": "Sophia Martinez",
+      "role": "Instagram Travel Blogger",
+      "age": 28,
+      "location": "Montana",
+      "rating": 5,
+      "headline": "\"Instagram-ready AND functional. Rare combo.\"",
+      "text": "I need my outerwear to photograph well AND actually work. Farm Rio is pretty but fails in real cold. North Face works but looks too technical. This is the sweet spot - chic enough for content, warm enough for actual outdoor shoots in winter. My followers keep asking where I got it.",
+      "segment": "Influencer/Content Creator",
+      "use_case": "Professional content creation"
+    },
+    {
+      "name": "Megan Foster",
+      "role": "Weekend Warrior",
+      "age": 30,
+      "location": "Washington",
+      "rating": 5,
+      "headline": "\"6 ski trips. Still looks new. Farm Rio would've pilled by now.\"",
+      "text": "I ski maybe 6-8 weekends a year. Farm Rio's polyester pills after one season (seen it happen to friends). This is on trip #6 and still looks brand new. The quality is insane for $19. I'm buying a backup before they sell out.",
+      "segment": "Weekend Skier",
+      "use_case": "Durability/longevity"
+    },
+    {
+      "name": "Olivia Brooks",
+      "role": "Marketing Executive",
+      "age": 37,
+      "location": "Illinois",
+      "rating": 5,
+      "headline": "\"Bought for ski trip. Wear it everywhere now.\"",
+      "text": "I bought this for a work retreat in Aspen. Now I wear it for daily errands, date nights, everything. It's that perfect intersection of cute and functional. I get compliments constantly. No one would guess it cost less than $20.",
+      "segment": "Professional Adult",
+      "use_case": "Unexpected versatility"
+    },
+    {
+      "name": "Ava Johnson",
+      "role": "Grad Student",
+      "age": 25,
+      "location": "Michigan",
+      "rating": 5,
+      "headline": "\"Finally, a size chart that doesn't lie.\"",
+      "text": "I've ordered Farm Rio before. Their sizing is CHAOS. Returned 3 times before giving up. This size chart is accurate down to the inch. I measured, ordered, it fits PERFECTLY. Why can't all brands do this?",
+      "segment": "Online Shopper",
+      "use_case": "Sizing accuracy"
+    },
+    {
+      "name": "Isabella Garcia",
+      "role": "Stay-at-Home Mom",
+      "age": 39,
+      "location": "Oregon",
+      "rating": 5,
+      "headline": "\"Warm enough for Michigan winters. Cute enough for Vermont ski lodges.\"",
+      "text": "I need one jacket that does it all - school drop-off, grocery runs, and looking decent at the ski resort cafeteria. This is that jacket. ThermaFlex™ insulation (love that) keeps me warm in actual cold, and I don't look like I'm wearing a sleeping bag.",
+      "segment": "Practical Multi-Tasker",
+      "use_case": "All-purpose outerwear"
+    },
+    {
+      "name": "Charlotte Lee",
+      "role": "Yoga Instructor",
+      "age": 33,
+      "location": "California",
+      "rating": 5,
+      "headline": "\"No more sweat-freeze cycle. This is everything.\"",
+      "text": "I teach outdoor winter yoga then go skiing. Most jackets make me sweat during class, then I freeze on the lift. Arctic Breathe™ (yes, I'm calling it out by name) WORKS. I stay warm but dry. It's witchcraft and I love it.",
+      "segment": "Active Wellness Professional",
+      "use_case": "Temperature regulation"
+    },
+    {
+      "name": "Zoe Anderson",
+      "role": "Software Engineer",
+      "age": 28,
+      "location": "Washington",
+      "rating": 5,
+      "headline": "\"Data-driven decision: This beats Farm Rio on every metric.\"",
+      "text": "I made a spreadsheet. Price per wear, warmth-to-weight ratio, breathability, style score. Farm Rio failed on 3/4. This wins on ALL metrics. Also I'm a nerd but this jacket is legitimately the best value I've ever calculated.",
+      "segment": "Analytical Buyer",
+      "use_case": "Value optimization"
+    },
+    {
+      "name": "Ella Thompson",
+      "role": "Real Estate Agent",
+      "age": 41,
+      "location": "Wyoming",
+      "rating": 5,
+      "headline": "\"Clients think I'm wearing Moncler. It's $19. I'm dying.\"",
+      "text": "I show houses in the cold. I need to look professional and stay warm. This reads as expensive. The cut, the fit, the quality - it looks like a $400+ jacket. But it's $19. My secret weapon.",
+      "segment": "Professional Image-Conscious",
+      "use_case": "Professional appearance"
+    },
+    {
+      "name": "Harper Wilson",
+      "role": "Photographer",
+      "age": 30,
+      "location": "Alaska",
+      "rating": 5,
+      "headline": "\"Shooting in -10°F. Still warm. Still cute. Unreal.\"",
+      "text": "I photograph weddings and engagements outdoors in Alaska winter. I need REAL warmth, not Instagram warmth. This performs. ThermaFlex™ insulation is legit - I've been out in -10°F for 4-hour shoots. Still have all my fingers.",
+      "segment": "Extreme Cold Professional",
+      "use_case": "Extreme temperature performance"
+    },
+    {
+      "name": "Grace Martinez",
+      "role": "Nurse & Mom of 3",
+      "age": 38,
+      "location": "Minnesota",
+      "rating": 5,
+      "headline": "\"I bought 4. One for me, one for each kid. Total: $76.\"",
+      "text": "Family of 4 needed ski jackets for our trip. Farm Rio prices would've been $2,000+. I got us all Auralo jackets for under $80. They worked PERFECTLY. Kids stayed warm, looked cute, and I didn't have a financial panic attack.",
+      "segment": "Family Buyer",
+      "use_case": "Bulk family purchase"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Will I sweat in this? I always get clammy in puffers.",
+      "answer": "Nope. That's the whole point of Arctic Breathe™ Technology. Most cheap puffers (looking at you, Farm Rio polyester) trap moisture. Ours has a moisture-wicking inner layer + ventilation zones so you stay warm WITHOUT the sweat-freeze cycle. You can actually MOVE without feeling like you're in a sauna.",
+      "icon": "ac_unit",
+      "objection": "Breathability concern"
+    },
+    {
+      "question": "Is this actually warm or just cute?",
+      "answer": "BOTH. ThermaFlex™ Insulation is rated for 20°F. It performs like down but works when wet. This isn't a fashion puffer pretending to be functional (Farm Rio). This is legit warmth that also happens to look amazing. Check the testimonials - ski instructors, Alaska photographers, they're all wearing this in REAL cold.",
+      "icon": "thermostat",
+      "objection": "Performance doubt"
+    },
+    {
+      "question": "What size do I order? I'm scared of the Farm Rio sizing disaster.",
+      "answer": "Order your NORMAL size. Seriously. Our SmartFit™ sizing is true-to-size. No 'size down 2 sizes' gambling. Check our size chart (it's actually accurate - wild concept). Measure your bust and waist, match to chart, done. Plus adjustable cuffs and hem mean you have wiggle room. We want you to be confident, not stressed.",
+      "icon": "straighten",
+      "objection": "Sizing anxiety"
+    },
+    {
+      "question": "Will this last or is it cheap quality?",
+      "answer": "It's $19, not $1.90. The construction is SOLID. WindShield™ outer layer is water-resistant and durable (not flimsy polyester that pills). Multiple customers report 6+ ski trips with zero pilling or fading. Farm Rio costs 28x more and pills after one season. You're getting quality without the luxury markup.",
+      "icon": "verified",
+      "objection": "Quality concern"
+    },
+    {
+      "question": "Can I wear this for non-ski stuff?",
+      "answer": "YES. That's half our customers. School pickup, grocery runs, date nights, outdoor yoga, dog walks in the cold, work commutes - this works for EVERYTHING. It looks chic enough for a ski lodge cafeteria and warm enough for Michigan winters. Most versatile jacket you'll own.",
+      "icon": "all_inclusive",
+      "objection": "Use case limitation"
+    }
+  ],
+  "cta_buttons": {
+    "primary": "Get Your Auralo Jacket - $19",
+    "secondary": "See Why 10,000+ Women Switched From Farm Rio",
+    "urgency": "Limited stock - Order now for delivery by Tuesday"
+  },
+  "guarantee_text": "30-Day Fit Guarantee: Love it or send it back. No questions asked. We're that confident you'll never go back to overpriced Farm Rio.",
+  "social_proof": {
+    "sold_count": "Over 10,000 Sold",
+    "review_count": "2,847 Reviews",
+    "rating": 4.9,
+    "shipping": "Fast Shipping from the USA"
+  },
+  "tiktok_overlays": [
+    {
+      "positioning": {
+        "position": "top-right",
+        "css": { "top": "20px", "right": "20px" }
+      },
+      "question": {
+        "text": "does it actually breathe or do you sweat then freeze? 🥶",
+        "username": "@ski_girlie"
+      },
+      "answer": {
+        "text": "omg YES it breathes!! Arctic Breathe™ tech = no more clammy vibes. warm without the sweat ✅",
+        "username": "@mountain_babe ✓"
+      },
+      "objection_type": "breathability"
+    },
+    {
+      "positioning": {
+        "position": "bottom-left",
+        "css": { "bottom": "30px", "left": "20px" }
+      },
+      "question": {
+        "text": "is this actually warm or just instagram warm? 😅",
+        "username": "@tahoe_newbie"
+      },
+      "answer": {
+        "text": "WARM WARM. 20°F rated. not like farm rio's fashion puffer. this one actually WORKS fr fr 🔥",
+        "username": "@ski_instructor_sarah ✓"
+      },
+      "objection_type": "performance"
+    },
+    {
+      "positioning": {
+        "position": "top-left",
+        "css": { "top": "40px", "left": "25px" }
+      },
+      "question": {
+        "text": "sizing?? im scared after farm rio's size down 2 sizes chaos 😭",
+        "username": "@confused_shopper"
+      },
+      "answer": {
+        "text": "TRUE TO SIZE!! finally!! check the size chart, order your normal size, it'll fit. no gambling 🙌",
+        "username": "@smartfit_convert ✓"
+      },
+      "objection_type": "sizing"
+    },
+    {
+      "positioning": {
+        "position": "middle-right",
+        "css": { "top": "45%", "right": "25px" }
+      },
+      "question": {
+        "text": "is $19 too good to be true? like is it gonna fall apart? 👀",
+        "username": "@skeptical_buyer"
+      },
+      "answer": {
+        "text": "6 trips in, still looks new. farm rio pilled after 1 season. quality is INSANE for the price no cap",
+        "username": "@weekend_warrior_meg ✓"
+      },
+      "objection_type": "quality"
+    },
+    {
+      "positioning": {
+        "position": "bottom-right",
+        "css": { "bottom": "40px", "right": "30px" }
+      },
+      "question": {
+        "text": "can i wear this for normal stuff or just skiing?",
+        "username": "@practical_mom"
+      },
+      "answer": {
+        "text": "EVERYTHING. school pickup, errands, dates, outdoor yoga. most versatile jacket ever frfr 💯",
+        "username": "@mom_of_3_grace ✓"
+      },
+      "objection_type": "versatility"
+    },
+    {
+      "positioning": {
+        "position": "middle-left",
+        "css": { "top": "50%", "left": "20px" }
+      },
+      "question": {
+        "text": "does it look cheap tho? like can ppl tell its $19? 👗",
+        "username": "@style_conscious"
+      },
+      "answer": {
+        "text": "clients think im wearing moncler. its $19. cut + fit reads as expensive. ur secret weapon 🤫",
+        "username": "@realtor_ella ✓"
+      },
+      "objection_type": "appearance"
+    },
+    {
+      "positioning": {
+        "position": "top-center",
+        "css": { "top": "25px", "left": "50%", "transform": "translateX(-50%)" }
+      },
+      "question": {
+        "text": "will this fit if my body changed postpartum? 🤰",
+        "username": "@new_mom_rachel"
+      },
+      "answer": {
+        "text": "YES!! adjustable cuffs + hem. size chart is accurate. i ordered my current size, fits perfect even w fluctuations 🙏",
+        "username": "@postpartum_warrior ✓"
+      },
+      "objection_type": "body_changes"
+    },
+    {
+      "positioning": {
+        "position": "bottom-center",
+        "css": {
+          "bottom": "35px",
+          "left": "50%",
+          "transform": "translateX(-50%)"
+        }
+      },
+      "question": {
+        "text": "worth it for a first timer who might not ski again? 🎿",
+        "username": "@first_trip_amanda"
+      },
+      "answer": {
+        "text": "$19 vs $539 farm rio for a MAYBE hobby? best decision ever. now i actually want to ski more bc no buyers remorse ✨",
+        "username": "@converted_skier ✓"
+      },
+      "objection_type": "commitment"
+    }
+  ],
+  "order_bump": {
+    "headline": "Add Thermal Base Layer Set - Just $10",
+    "description": "Complete your cold-weather setup with our moisture-wicking base layer. Pairs perfectly with your Auralo Jacket for maximum warmth without bulk.",
+    "price_text": "+$10 (Normally $25)",
+    "checkbox_label": "Yes! Add Thermal Base Layer Set for just $10 more",
+    "value_prop": "Save $15 when you bundle - complete your winter wardrobe for $29 total"
+  }
+}
