@@ -50,7 +50,7 @@
         --space-md: 20px;
         --space-lg: 30px;
         --space-xl: 45px;
-        --section-padding: 30px 20px;
+        --section-padding: 16px 20px; /* WaistMafia: 16px mobile top/bottom */
       }
 
       * {
@@ -65,6 +65,7 @@
         line-height: 1.6;
         color: var(--text-primary);
         background: var(--white);
+        letter-spacing: 0.06em; /* WaistMafia global spacing */
       }
 
       h1 {
@@ -325,7 +326,7 @@
       .feature-cards {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 10px;
+        gap: 2rem; /* WaistMafia: 2rem gap */
         margin: 20px 0;
       }
 
@@ -333,7 +334,7 @@
         background: var(--white);
         border: 1px solid var(--gray-border);
         border-radius: 12px;
-        padding: 12px 16px;
+        padding: 22px 16px; /* WaistMafia: 22px 16px mobile */
         display: flex;
         align-items: center;
         gap: 10px;
@@ -887,7 +888,7 @@
       .reviews-grid {
         display: grid;
         grid-template-columns: 1fr;
-        gap: 20px;
+        gap: 3rem 2rem; /* WaistMafia: 3rem rows, 2rem columns */
       }
 
       @media (min-width: 768px) {
@@ -974,7 +975,7 @@
       .guarantee-grid {
         display: flex;
         flex-direction: column;
-        gap: 20px;
+        gap: 2rem; /* WaistMafia: 2rem gap */
       }
 
       @media (min-width: 768px) {
